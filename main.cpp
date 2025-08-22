@@ -6,6 +6,7 @@
 //
 
 #include <iostream>
+#include <unordered_map>
 #include <vector>
 
 using namespace::std;
@@ -16,5 +17,9 @@ int main(int argc, const char * argv[]) {
     vector<int> vt;
     for(int i=0;i<100;i++)
         vt.push_back(i);
+    
+    unordered_map<int, int> hash;
+    hash[1]=10;
+    hash[10]=100;
     return 0;
 }
